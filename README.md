@@ -133,7 +133,7 @@ Lập bảng cho 10 cặp điểm, tính thời gian trung bình và số nút m
 | 5. Thực nghiệm | Chạy các cặp kiểm thử, lập bảng và phân tích kết quả | Bảng/biểu đồ và nhận xét |
 | 6. Hoàn thiện | Viết báo cáo, README, hướng dẫn chạy và chuẩn bị trình bày | Repo GitHub và báo cáo cuối kỳ |
 
-Phân công có thể chia theo các phần: (1) dữ liệu và giấy phép, (2) thuật toán và mô hình, (3) giao diện và trực quan hóa, (4) thực nghiệm, báo cáo và tích hợp. Nếu nhóm ít thành viên, có thể gộp các phần và ghi rõ người phụ trách trong báo cáo.
+Phân công có thể chia theo các phần: (1) dữ liệu và giấy phép, (2) thuật toán và mô hình, (3) giao diện và trực quan hóa, (4) thực nghiệm, báo cáo và tích hợp.
 
 ## Ghi công dữ liệu
 
