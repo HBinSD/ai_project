@@ -88,12 +88,13 @@ Notebook kiểm tra ID có trong đồ thị và có đường đi trước khi 
 
 ## 6. Thiết kế và chức năng hiện có
 
-- Tải mạng đường từ GraphML; nếu không tìm thấy file thì notebook thử tải lại khu vực bằng OSMnx.
+- Tải mạng đường từ GraphML; nếu không tìm thấy file thì notebook thử tải lại khu vực bằng osmnx.
 - Tự cài đặt Dijkstra và A* bằng hàng đợi ưu tiên.
 - Tạo 10 cặp kiểm thử ngẫu nhiên có đường đi.
 - In chiều dài, số nút mở rộng và thời gian chạy cho mỗi thuật toán.
 - Vẽ tuyến của ca thử đầu tiên.
 - Cho phép nhập ID nguồn/đích qua giao diện `ipywidgets` và hiển thị so sánh cùng bản đồ tuyến A*.
+- có thể kiểm tra các tuyến đường khác từ tọa độ bằng 
 
 ## 7. Kế hoạch thực nghiệm và đánh giá
 
@@ -133,23 +134,6 @@ Lập bảng cho 10 cặp điểm, tính thời gian trung bình và số nút m
 | 6. Hoàn thiện | Viết báo cáo, README, hướng dẫn chạy và chuẩn bị trình bày | Repo GitHub và báo cáo cuối kỳ |
 
 Phân công có thể chia theo các phần: (1) dữ liệu và giấy phép, (2) thuật toán và mô hình, (3) giao diện và trực quan hóa, (4) thực nghiệm, báo cáo và tích hợp. Nếu nhóm ít thành viên, có thể gộp các phần và ghi rõ người phụ trách trong báo cáo.
-
-## 10. Gợi ý nội dung repo GitHub
-
-```text
-road-delivery-routing/
-├── README.md
-├── main_final.ipynb
-├── data/
-│   └── README.md             # nguồn dữ liệu, giấy phép, cách lấy GraphML
-├── reports/
-│   ├── proposal.md           # mô tả đề tài một trang
-│   └── experiments.md        # thiết lập và kết quả thử nghiệm
-├── requirements.txt
-└── .gitignore
-```
-
-Nếu không muốn đưa GraphML vài MB lên GitHub, hướng dẫn trong `data/README.md` cách tải/tạo lại tệp và lưu dữ liệu ngoài repo. Khi dùng lại dữ liệu OpenStreetMap, giữ ghi công và tuân thủ ODbL. Không đưa token, thông tin cá nhân hoặc tệp môi trường vào repo.
 
 ## Ghi công dữ liệu
 
